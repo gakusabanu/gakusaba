@@ -1,0 +1,447 @@
+
+/* header 設定部分 */
+.header{
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-height: 100px;
+    justify-content: center;
+    gap:30px;
+    
+}
+.header-logo{
+    max-width:100px;
+    max-height:100px;
+}
+.header-item{
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.0rem;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.header-name{
+    font-size: 2.0rem;
+    color: #000;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-explain{
+    font-size: 1.0rem;
+    color: #000;
+    text-decoration: none;
+}
+
+/* コンテンツ部分 */
+.wrapper{
+    margin: 0 4%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+
+/* main 設定部分 */
+.main{
+    width: 74%;
+    margin: 0 auto;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: #17362d 2px solid;
+}
+
+.main-logo{
+    width: 250px;
+    height: 250px;
+    margin: 0 0;
+    display: block;
+}
+.main-word{
+    font-size: 2.0rem;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+/* 学術サーバーの説明 */
+.main-explain-content{
+    font-size: 1.0rem;
+    color: #000;
+    text-decoration: none;
+    margin:20px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    display: flex;
+    border-bottom: #25412a 2px solid;
+}
+.main-explain-content p{
+    margin-bottom: 2.0rem;
+}
+.main-explain-content img{
+    height: auto;
+    width: 40%;
+    margin: 0 0;
+    display: block;
+}
+
+
+/* ゼミをする */
+.wellcome-zemi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+    padding: 3%;
+    border-bottom: #695a5a 2px solid;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #695a5a;
+    font-weight: 500;
+
+}
+
+/* ボタン */
+/* https://dubdesign.net/download/html-css/button-design/ を参照 */
+.button a {
+    background: #d7ffe7;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: cente;
+    margin: 0 auto;
+    min-width: 300px;
+    padding: 10px 25px;
+    color: #000000;
+    font-size: 1.5rem;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 2rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+}
+.button a:hover {
+  background: #6bb6ff;
+  color: #FFF;
+}
+.button a:hover:after {
+  right: 1.4rem;
+}
+/* botton指定終わり */
+
+
+/* 新歓企画 */
+.newcommer{
+    text-align: center;
+    padding: 10px 0 30px 0;
+    border-bottom: #000 2px solid;
+}
+.newcommer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+.newcommer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.newcommer-item img{
+    width: 160px;
+    height: 120px;
+}
+
+.newcommer-item:hover{
+    background-color: #d6f8d3;
+}
+
+.newcommer-item div{
+    font-size: 1.0rem;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+/* sns */
+.sns{
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.LINE-register{
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.LINE-register img{
+    width: 300px;
+    height: 300px;
+}
+.LINE-url{
+    padding: 20px 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.twitter-timeline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px 25px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+
+/* サイドバーでの選択 */
+
+.side{
+    width: 22%;
+    margin: 0 auto;
+}
+
+.navigation-title{
+    font-size: 1.5rem;
+    color: #090909;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0; 
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+
+}
+
+.navigation{
+    padding-left: 40px;
+}
+
+.navigation li{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid #000;
+}
+.navigation a{
+    padding: 15px 20px 10px 0px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+}
+.navigation a:hover{
+    background-color: #d6f8d3;
+}
+
+
+
+/* ゼミ一覧 */
+
+.zemi-summary{
+    text-align: center;
+}
+.zemi-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.zemi-grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.zemi-grid-item img{
+    width: 120px;
+    height: 160px;
+}
+
+/* newcommer */
+
+.plan {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    border-bottom: #6bb6ff 2px solid;
+  }
+.plan-item{
+    text-align: center;
+    border-bottom: #6bb6ff 2px solid;
+}
+
+
+/* カレンダー */
+.calendar-wrap {
+    margin: 0 auto;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  @media (max-width: 767.98px) {
+    .calendar-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .calendar {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .calendar th,
+  .calendar td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .calendar th {
+    padding: 6px 10px;
+  }
+  /* .calendar td {} */
+  @media (max-width: 767.98px) {
+    .calendar th,
+    .calendar td {
+      padding: 6px;
+      font-size: 12px;
+    }
+    .calendar th {
+      padding: 3px 6px;
+    }
+  }
+  
+  .calendar .sun {
+    color: #e17f7e;
+    background-color: #f8e4e2;
+  }
+  .calendar .sat {
+    color: #7ab6f3;
+    background-color: #e7f6fd;
+  }
+  .calendar .mute {
+    color: #aaa;
+  }
+  .calendar .today {
+    background-color: #7d7d7d;
+  }
+  .calendar .off {
+    background-color: #fadcdb;
+  }
+
+  .calendar .library {
+    background-color: #6af4e6;
+    color: #fff;
+  }
+
+  /* フッター部分 */
+
+footer{
+text-align: center;
+font-weight: normal;
+padding: 10px 0 10px 0;
+background-color: #f4f4f4;
+color: #000000;
+}
+
+
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+
+.footer-name{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-logo{
+width: 50px;
+height: 50px;
+}
+
+.footer-git{
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.footer-git-image{
+width: 50px;
+height: 50px;
+}
