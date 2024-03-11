@@ -437,13 +437,19 @@ gap: 20px;
 
 .footer-name{
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    
 }
 
 .footer-logo{
 width: 50px;
 height: 50px;
+}
+.footer-name p{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    font-size: 1.0rem;
+    padding: auto;
 }
 
 .footer-git{
