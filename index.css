@@ -535,7 +535,7 @@ height: 50px;
 
     .wellcome-zemi{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     .wellcome-zemi h2{
