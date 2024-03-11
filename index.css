@@ -246,6 +246,7 @@
     flex-direction: column;
     color: #000000;
     font-weight: 500;
+    max-width: 80%;
 }
 
 .twitter-timeline{
@@ -554,6 +555,10 @@ height: 50px;
         justify-content: center;
         align-items: center;
     }
+    .twitter{
+        max-width: 100%;
+    }
+
     .button{
         max-width: 250px;
     }
