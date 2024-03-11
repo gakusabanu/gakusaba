@@ -130,6 +130,7 @@
     padding: 10px 25px;
     color: #695a5a;
     font-weight: 500;
+    max-width: 30%;
 
 }
 
@@ -254,7 +255,6 @@
     margin: 0 auto;
     color: #ffffff;
     font-weight: 500;
-    
 }
 
 
@@ -342,6 +342,13 @@
 .plan-item{
     text-align: center;
     border-bottom: #6bb6ff 2px solid;
+}
+
+.plan-item img{
+    width: 50%;
+    height: auto;
+    padding: 20px 0;
+
 }
 
 
@@ -562,6 +569,13 @@ height: 50px;
     /* newcommer */
     .plan-item p{
         padding: 0 10%;
+    }
+
+    .plan-item img{
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    
     }
 
 
