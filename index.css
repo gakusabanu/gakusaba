@@ -570,7 +570,7 @@ height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
+        margin: 0;
         /* padding: 10px 25px; */
         color: #695a5a;
         font-weight: 500;
