@@ -128,7 +128,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 10px 25px;
+    /* padding: 10px 25px; */
     color: #695a5a;
     font-weight: 500;
     max-width: 30%;
@@ -567,9 +567,16 @@ height: 50px;
     }
 
     .button{
-        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        /* padding: 10px 25px; */
+        color: #695a5a;
+        font-weight: 500;
+        max-width: 100%;
     }
-
+    
     /* zemi 一覧画面 */
     .zemi-grid{
         display: grid;
