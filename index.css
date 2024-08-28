@@ -154,28 +154,28 @@
     text-decoration: none;
 }
 .button a:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  bottom: 0;
-  right: 2rem;
-  font-size: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: right 0.3s;
-  width: 6px;
-  height: 6px;
-  border-top: solid 2px currentColor;
-  border-right: solid 2px currentColor;
-  transform: translateY(-50%) rotate(45deg);
-}
+    content: "";
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    right: 2rem;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s;
+    width: 6px;
+    height: 6px;
+    border-top: solid 2px currentColor;
+    border-right: solid 2px currentColor;
+    transform: translateY(-50%) rotate(45deg);
+    }
 .button a:hover {
-  background: #6bb6ff;
-  color: #FFF;
+    background: #6bb6ff;
+    color: #FFF;
 }
 .button a:hover:after {
-  right: 1.4rem;
+    right: 1.4rem;
 }
 /* botton指定終わり */
 
@@ -340,7 +340,7 @@
     text-align: center;
     padding: 10px 0 30px 0;
     border-bottom: #6bb6ff 2px solid;
-  }
+}
 .plan-item{
     text-align: center;
     border-bottom: #6bb6ff 2px solid;
@@ -361,7 +361,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-  }
+}
   @media (max-width: 767.98px) {
     .calendar-wrap {
       display: flex;
