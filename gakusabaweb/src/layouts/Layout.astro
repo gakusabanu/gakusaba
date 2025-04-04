@@ -1,3 +1,8 @@
+---
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+---
+
 <!doctype html>
 <html lang="ja">
 	<head>
@@ -22,10 +27,9 @@
 		<title>学術サーバー : ホームページ</title>
 	</head>
 	<body>
-
-
-
+		<Header />
 		<slot />
+		<Footer/>
 	</body>
 </html>
 

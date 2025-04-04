@@ -1,0 +1,73 @@
+---
+import githubimg from '../assets/github.png'; 
+import gakusabalogo from '../assets/logo.png';
+
+---
+
+
+<footer>
+    <div class="footer">
+        <div class="footer-name">
+            <a href="/"><img src={gakusabalogo.src} alt="学術サーバーロゴ" class="footer-logo"></a>
+            <p><small>名大学術サーバー</small></p>
+        </div>
+        
+        <p>
+            メールでのお問い合わせはこちらから gakusaba.nu@gmail.com
+        </p>  
+        <div class="footer-git">
+            <p>GitHubでは会則を公開しています</p>
+            <a href="https://github.com/gakusabanu/regulation-2024/blob/main/%E5%AD%A6%E8%A1%93%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E4%BC%9A%E5%89%872024.md">
+                <img src={githubimg.src} alt="GitHubのイメージ" class="footer-git-image">
+            </a> 
+            
+        </div>
+    </div>
+</footer>
+
+<style>
+    
+footer{
+    text-align: center;
+    font-weight: normal;
+    padding: 10px 0 10px 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-name{
+    display: flex;
+
+}
+
+.footer-logo{
+    width: 50px;
+    height: 50px;
+}
+.footer-name p{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+    font-size: 1.0rem;
+    padding: auto;
+}
+
+.footer-git{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-git-image{
+    width: 50px;
+    height: 50px;
+}
+</style>

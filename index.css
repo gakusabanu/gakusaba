@@ -170,6 +170,7 @@
     border-right: solid 2px currentColor;
     transform: translateY(-50%) rotate(45deg);
     }
+    
 .button a:hover {
     background: #6bb6ff;
     color: #FFF;

@@ -1,11 +1,88 @@
 ---
-import Welcome from '../components/Welcome.astro';
+
 import Layout from '../layouts/Layout.astro';
+import gakusabalog from '../assets/logo.png';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<main class="main">
+		<div class="main-title">
+			<div class="main-image"><img src={gakusabalog.src} alt="学術サーバー" class="main-logo"></div>
+			
+			<div class="main-word">
+					<h1>ようこそ！<br>
+						名大学術サーバーへ</h1>
+			</div>
+		</div>
+		<!-- 学術サーバーの説明 -->
+		<div class="main-explain-content">
+			<div class="main-explain-text">
+				<h2>学術サーバーとは</h2>
+				<p>学術サーバーは、名古屋大学の学生が自由にゼミを開催できる場です。<br>
+				どんなゼミでも開催できます。<br>
+				例えば、量子力学ゼミ、アイヌ語ゼミ、有機化学ゼミ、哲学ゼミ、<br>
+				プログラミングゼミ、経済学ゼミなどなど、様々なゼミが開かれています！
+				さあ、あなたもゼミに参加・開催してみませんか？
+				</p>
+			</div>
+		</div> 
+		<!-- 学術サーバーの説明終わり -->
+	</main>
+
 </Layout>
+
+<style>
+	/* main 設定部分 */
+.main{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: #17362d 2px solid;
+}
+
+.main-logo{
+    width: 200px;
+    height: 200px;
+    margin: 0 0;
+    display: block;
+}
+.main-word{
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+/* 学術サーバーの説明 */
+.main-explain-content{
+    font-size: 1.0rem;
+    color: #000;
+    text-decoration: none;
+    margin:20px 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    display: flex;
+    border-bottom: #25412a 2px solid;
+}
+.main-explain-content p{
+    margin-bottom: 2.0rem;
+}
+.main-explain-content img{
+    width: 48%;
+    height: 27%;
+    margin: 0 0;
+    display: block;
+}
+
+</style>
